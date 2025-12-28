@@ -1,0 +1,30 @@
+.env
+.env.*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node / Next.js
+node_modules/
+.next/
+dist/
+out/
+
+# Local caches / logs
+.rag_cache/
+web/.rag_cache/
+*.log
+
+# Large local artifacts (do not commit)
+ted_talks_en.csv
+Individual Assignment.pdf
+assignment_extracted.txt
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+
