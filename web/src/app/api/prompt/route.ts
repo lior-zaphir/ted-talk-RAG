@@ -4,6 +4,8 @@ import { chatWithContext } from "@/lib/models/rprthpb";
 import { bestTalkId, pickTopChunksFromSingleTalk, pickTopDistinctTalks } from "@/lib/rag/selection";
 import { classifyQuestion } from "@/lib/rag/question_types";
 
+export const runtime = "nodejs";
+
 const REQUIRED_SYSTEM_PROMPT = `You are a TED Talk assistant that answers questions strictly and
 only based on the TED dataset context provided to you (metadata
 and transcript passages). You must not use any external
