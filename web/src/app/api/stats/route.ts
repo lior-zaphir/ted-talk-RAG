@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { RAG_CONFIG } from "@/lib/rag/config";
+import { RAG_CONFIG } from "../../../lib/rag/config";
 
 export const runtime = "nodejs";
 

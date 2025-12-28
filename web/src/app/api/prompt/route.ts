@@ -1,8 +1,8 @@
 import { NextResponse } from "next/server";
-import { retrieveTopK } from "@/lib/rag/retrieval";
-import { chatWithContext } from "@/lib/models/rprthpb";
-import { bestTalkId, pickTopChunksFromSingleTalk, pickTopDistinctTalks } from "@/lib/rag/selection";
-import { classifyQuestion } from "@/lib/rag/question_types";
+import { retrieveTopK } from "../../../lib/rag/retrieval";
+import { chatWithContext } from "../../../lib/models/rprthpb";
+import { bestTalkId, pickTopChunksFromSingleTalk, pickTopDistinctTalks } from "../../../lib/rag/selection";
+import { classifyQuestion } from "../../../lib/rag/question_types";
 
 export const runtime = "nodejs";
 
